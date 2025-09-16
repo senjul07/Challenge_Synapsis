@@ -46,13 +46,13 @@ sudo apt install python3 python3-pip -y
 
 **Ubuntu/Linux**
 ```bash
-cd ~/Challenge_Synapsis/documentation/
+cd path/to/project/Challenge_Synapsis/documentation/
 python3 -m pip install -r requirement.txt
 ```
 
 **Windows**
 ```cmd
-cd C:\Challenge_Synapsis\documentation\
+cd path\to\project\Challenge_Synapsis\documentation\
 python -m pip install -r requirement.txt
 ```
 
@@ -63,13 +63,13 @@ python -m pip install -r requirement.txt
 ### Soal 1
 **Ubuntu/Linux**
 ```bash
-cd ~/Challenge_Synapsis/soal_python/soal1/
+cd path/to/project/Challenge_Synapsis/soal_python/soal1/
 python3 soal1.py
 ```
 
 **Windows**
 ```cmd
-cd C:\Challenge_Synapsis\soal_python\soal1\
+cd path\to\project\Challenge_Synapsis\soal_python\soal1\
 python soal1.py
 ```
 
@@ -79,13 +79,13 @@ python soal1.py
 ### Soal 2
 **Ubuntu/Linux**
 ```bash
-cd ~/Challenge_Synapsis/soal_python/soal2/
+cd path/to/project/Challenge_Synapsis/soal_python/soal2/
 python3 soal2.py
 ```
 
 **Windows**
 ```cmd
-cd C:\Challenge_Synapsis\soal_python\soal2\
+cd path\to\project\Challenge_Synapsis\soal_python\soal2\
 python soal2.py
 ```
 
@@ -94,26 +94,26 @@ python soal2.py
 **Slave (dijalankan dulu)**
 - **Ubuntu/Linux**
 ```bash
-cd ~/Challenge_Synapsis/soal_python/soal3/
+cd path/to/project/Challenge_Synapsis/soal_python/soal3/
 python3 main_slave.py
 ```
 
 - **Windows**
 ```cmd
-cd C:\Challenge_Synapsis\soal_python\soal3\
+cd path\to\project\Challenge_Synapsis\soal_python\soal3\
 python main_slave.py
 ```
 
 **Master (dijalankan setelah Slave)**
 - **Ubuntu/Linux**
 ```bash
-cd ~/Challenge_Synapsis/soal_python/soal3/
+cd path/to/project/Challenge_Synapsis/soal_python/soal3/
 python3 main_master.py
 ```
 
 - **Windows**
 ```cmd
-cd C:\Challenge_Synapsis\soal_python\soal3\
+cd path\to\project\Challenge_Synapsis\soal_python\soal3\
 python main_master.py
 ```
 
@@ -122,22 +122,22 @@ python main_master.py
 ### Soal 4
 **Ubuntu/Linux**
 ```bash
-cd ~/Challenge_Synapsis/soal_python/soal4/
+cd path/to/project/Challenge_Synapsis/soal_python/soal4/
 python3 soal4.py
 ```
 
 **Windows**
 ```cmd
-cd C:\Challenge_Synapsis\soal_python\soal4\
+cd path\to\project\Challenge_Synapsis\soal_python\soal4\
 python soal4.py
 ```
 
 ---
 
-## Soal 5 (Wokwi Arduino)
+## Soal 5 (Wokwi ESP32)
 
-- Buka file `link.txt` di `~/Challenge_Synapsis/soal_wokwi/`
-- Copy link Wokwi ke browser untuk melihat dan menjalankan simulasi Arduino
+- Buka file `link.txt` di `path/to/project/Challenge_Synapsis/soal_wokwi/`
+- Copy link Wokwi ke browser untuk melihat dan menjalankan simulasi ESP32-S3 dengan sensor DHT22
 
 ---
 
