@@ -16,7 +16,7 @@ from datetime import datetime, timezone, timedelta
 # -------------------------------
 # Class untuk helper CRUD
 class CrudHelper:
-    # Import modul mysql di dalam class karena hanya dipake di soal 1
+    # Import modul mysql & flask di dalam class karena hanya dipake di soal 1
     import mysql.connector
     from mysql.connector import Error
     from flask import Flask, Response, request
@@ -285,10 +285,11 @@ class ModbusHelper:
     
 
 # -------------------------------
-# SOAL 3: MQTTT
+# SOAL 4: MQTTT
 # -------------------------------
+# Class untuk helper MQTT
 class MqttHelper:
-    # Import modul paho-mqtt di dalam class karena hanya dipake di soal 4
+    # Import modul paho-mqtt & csv di dalam class karena hanya dipake di soal 4
     import csv
     import paho.mqtt.client as mqtt
 
