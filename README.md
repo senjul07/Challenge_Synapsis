@@ -74,7 +74,19 @@ python soal1.py
 ```
 
 ***Gunakan Postman untuk testing***
+```
+GET:
+http://127.0.0.1:8080/api/read/node
 
+POST:
+http://127.0.0.1:8080/api/create/node
+
+PUT:
+http://127.0.0.1:8080/api/update/node
+
+DELETE:
+http://127.0.0.1:8080/api/delete/node
+```
 
 ### Soal 2
 **Ubuntu/Linux**
